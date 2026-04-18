@@ -457,7 +457,15 @@ footer {
 @media (max-width: 768px) {
     .section-title::after { width: 100%; }
     .nav-content { padding: 0 20px; }
-    .container { padding: 100px 20px 0; }
+    
+    /* Increased padding to prevent hero text from hiding behind the navbar */
+    .container { padding: 160px 20px 0; }
+    
+    /* Adjusted logo so it doesn't wrap to a second line and increase navbar height */
+    .logo { 
+        font-size: 1rem; 
+        white-space: nowrap; 
+    }
     
     .hero {
         align-items: flex-start;
