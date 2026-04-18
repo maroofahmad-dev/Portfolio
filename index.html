@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maroof Ahmad | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
 <div class="bg-animation">
     <div class="grid-overlay"></div>
-    <div class="glow-orb yellow-orb"></div>
-    <div class="glow-orb white-orb"></div>
+    <div class="glow-orb gold-orb"></div>
+    <div class="glow-orb copper-orb"></div>
 </div>
 
 <nav class="navbar">
@@ -24,87 +25,110 @@
 
 <div class="container">
     <header class="hero">
-        <p class="greeting animate-up">Hi, my name is</p>
-        <h1 class="animated-name animate-up delay-1">Maroof Ahmad</h1>
+        <p class="greeting reveal">Hi, my name is</p>
+        <h1 class="animated-name reveal delay-1">Maroof Ahmad</h1>
         
-        <div class="typewriter-container animate-up delay-2">
+        <div class="typewriter-container reveal delay-2">
             <h2 class="subtitle typewriter-text">I build things for the web.</h2>
         </div>
         
-        <p class="tagline animate-up delay-3">I am a motivated first-year BCA student seeking an IT internship to gain hands-on experience, improve technical and creative skills, and contribute to real-world projects.</p>
-        <div class="animate-up delay-4">
+        <p class="tagline reveal delay-3">I am a motivated first-year BCA student seeking an IT internship to gain hands-on experience, improve technical and creative skills, and contribute to real-world projects.</p>
+        <div class="reveal delay-4">
             <a href="#contact" class="btn primary-btn">Get In Touch</a>
         </div>
     </header>
 
-    <section id="education" class="animate-up delay-1">
-        <h3 class="section-title"><span>Education</span></h3>
-        <div class="card glass hover-glow">
+    <section id="education">
+        <h3 class="section-title reveal"><span>Education</span></h3>
+        <div class="card glass hover-float reveal">
             <h4>Bachelor of Computer Applications (BCA)</h4>
             <p class="highlight">St. Claret College, Bengaluru</p>
             <p class="date">2025 – Present</p>
         </div>
     </section>
 
-    <section id="skills" class="animate-up delay-2">
-        <h3 class="section-title"><span>Technical Skills</span></h3>
+    <section id="skills">
+        <h3 class="section-title reveal"><span>Technical Skills</span></h3>
         <div class="skills-grid">
-            <div class="skill-card glass hover-glow">
-                <h4>Programming</h4>
-                <ul>
-                    <li>C</li>
-                    <li>Python</li>
-                    <li>Java (Basic)</li>
+            <div class="skill-card glass hover-float reveal delay-1">
+                <h4><i class="fa-solid fa-code"></i> Programming</h4>
+                <ul class="icon-list">
+                    <li><i class="fa-brands fa-cuttlefish"></i> C</li>
+                    <li><i class="fa-brands fa-python"></i> Python</li>
+                    <li><i class="fa-brands fa-java"></i> Java <span class="skill-badge">Basic</span></li>
                 </ul>
             </div>
-            <div class="skill-card glass hover-glow">
-                <h4>Tools & Software</h4>
-                <ul>
-                    <li>MS Word, Excel, PowerPoint</li>
+            <div class="skill-card glass hover-float reveal delay-2">
+                <h4><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h4>
+                <ul class="icon-list">
+                    <li><i class="fa-solid fa-file-word"></i> MS Word</li>
+                    <li><i class="fa-solid fa-file-excel"></i> MS Excel</li>
+                    <li><i class="fa-solid fa-file-powerpoint"></i> MS PowerPoint</li>
                 </ul>
             </div>
-            <div class="skill-card glass hover-glow">
-                <h4>Creative</h4>
-                <ul>
-                    <li>Adobe Photoshop</li>
-                    <li>Premiere Pro (Basic)</li>
+            <div class="skill-card glass hover-float reveal delay-3">
+                <h4><i class="fa-solid fa-palette"></i> Creative</h4>
+                <ul class="icon-list">
+                    <li><i class="fa-brands fa-staylinked"></i> Adobe Photoshop</li>
+                    <li><i class="fa-solid fa-video"></i> Premiere Pro <span class="skill-badge">Basic</span></li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="animate-up delay-3">
-        <h3 class="section-title"><span>Projects & Certifications</span></h3>
+    <section id="projects">
+        <h3 class="section-title reveal"><span>Projects & Certifications</span></h3>
         <div class="grid-2">
-            <div class="card glass hover-glow">
-                <h4>Projects</h4>
-                <ul>
-                    <li>Quiz Website</li>
-                    <li>Presentation Projects</li>
-                </ul>
+            <div class="card glass hover-float reveal delay-1">
+                <h4><i class="fa-solid fa-folder-open"></i> Projects</h4>
+                <div class="project-item">
+                    <p class="highlight">Quiz Website</p>
+                    <p class="project-desc">Basic logic building and user interaction.</p>
+                </div>
+                <div class="project-item">
+                    <p class="highlight">Presentation Projects</p>
+                    <p class="project-desc">Academic presentations using core design principles.</p>
+                </div>
             </div>
-            <div class="card glass hover-glow">
-                <h4>Certifications</h4>
-                <ul>
-                    <li>Udemy Courses</li>
-                    <li>NPTEL Programs</li>
-                    <li>Adobe Basics</li>
+            <div class="card glass hover-float reveal delay-2">
+                <h4><i class="fa-solid fa-certificate"></i> Certifications</h4>
+                <ul class="icon-list">
+                    <li><i class="fa-solid fa-award"></i> Udemy Technical Courses</li>
+                    <li><i class="fa-solid fa-award"></i> NPTEL Academic Programs</li>
+                    <li><i class="fa-solid fa-award"></i> Adobe Design Basics</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="animate-up delay-4 text-center">
+    <section id="contact" class="text-center reveal">
         <p class="greeting">What's Next?</p>
         <h2 class="big-heading animated-name">Get In Touch</h2>
         <p class="contact-text">Currently seeking an IT, Software, or Web Development internship with flexible availability. Whether you have an opportunity or just want to say hi, my inbox is always open!</p>
-        <a href="mailto:maroofahmad2006@gmail.com" class="btn primary-btn">Say Hello</a>
+        <a href="mailto:maroofahmad2006@gmail.com" class="btn primary-btn"><i class="fa-regular fa-paper-plane"></i> Say Hello</a>
     </section>
 
-    <footer>
+    <footer class="reveal">
         <p>Designed & Built by Maroof Ahmad</p>
+        <div class="footer-socials">
+            <a href="https://github.com/maroofahmad-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maroof-ahmad" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
     </footer>
 </div>
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    const hiddenElements = document.querySelectorAll('.reveal');
+    hiddenElements.forEach((el) => observer.observe(el));
+</script>
 
 </body>
 </html>
